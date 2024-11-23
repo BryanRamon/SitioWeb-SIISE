@@ -1,0 +1,13 @@
+$font :"Poppins", sans-serif;
+$bgc: rgb(234, 239, 239);
+$bgc-btn2: rgb(101, 137, 137);
+
+.logo{
+    width: auto;
+    height: 160px;
+}
+.imge{
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(60%);
+}

@@ -1,0 +1,112 @@
+.logo {
+  width: auto;
+  height: 160px;
+}
+
+.imge {
+  height: 600px;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+i {
+  font-size: 4rem;
+}
+
+ul li a {
+  margin-left: 2.5rem;
+  transition: border-bottom 0.3s ease;
+}
+
+ul li a:hover {
+  border-bottom: 1px solid tomato;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar {
+  background-color: black;
+  height: 120px;
+}
+
+.carousel-inner {
+  max-height: 600px;
+}
+
+.br {
+  border: 1px solid black;
+}
+
+.nosotros {
+  background-color: rgb(234, 239, 239);
+  width: 100%;
+  padding: 3rem;
+}
+
+.sedes {
+  width: 100%;
+}
+
+.cards {
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  margin-top: 8rem;
+}
+.box img {
+  object-fit: cover;
+}
+.box__center {
+  background-color: rgb(234, 239, 239);
+}
+.box__center__formulario {
+  width: 50%;
+  background-color: rgb(234, 239, 239);
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer__box {
+  width: 90%;
+}
+
+.redes a {
+  transition: transform 0.3s ease;
+}
+.redes a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.redes i {
+  font-size: 2.5rem;
+}
+
+.derechos {
+  border-top: 1px solid white;
+}
+.derechos__politicas a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+  transition: border-bottom 0.3s ease;
+}
+.derechos__politicas a:hover {
+  border-bottom: 1px solid tomato;
+}
+.derechos i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

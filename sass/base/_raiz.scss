@@ -1,0 +1,14 @@
+*{
+    font-family: $font;
+    margin: 0;
+}
+i{
+    font-size: 4rem;
+}
+ul li a{
+    margin-left: 2.5rem;
+    transition: border-bottom 0.3s ease; 
+}
+ul li a:hover{
+    border-bottom: 1px solid tomato;
+}

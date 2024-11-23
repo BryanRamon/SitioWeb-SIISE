@@ -1,0 +1,14 @@
+.box{
+    width: 100%;
+    margin-top: 8rem;
+    img{
+        object-fit: cover;
+    }
+    &__center{
+        background-color: $bgc;
+        &__formulario{
+            width: 50%;
+            background-color: $bgc;
+        }
+    }
+}
